@@ -122,3 +122,28 @@ body{
     }
 }
 
+@media(min-width:1400px){
+    
+.product-body h4{
+    font-size: 18px;
+}
+
+.product-body h2{
+    font-family: "Fraunces", serif;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-top: 28px;
+}
+.product-body p{
+    font-size: 18px; 
+    margin-top: 28px;
+    line-height: 28px;
+}
+
+.product-price{
+    margin-top: 18px;
+}
+
+}
+
