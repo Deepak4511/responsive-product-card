@@ -1,0 +1,124 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.prod-sec{
+    width: 60% !important;
+    margin-top: 50px !important;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.prod-img{
+    border-radius: 10px 0px 0px 10px;
+}
+.mob-img{
+    display: none;
+}
+
+.product-body h4{
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.product-body h2{
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 28px;
+}
+.product-body p{
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px; 
+    margin-top: 28px;
+    line-height: 24px;
+}
+
+.product-price{
+    margin-top: 18px;
+}
+
+.product-price strong{
+    font-size: 38px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+}
+
+.product-price small{
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    margin-left: 15px;
+    text-decoration: line-through;
+    
+}
+.cart-btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 28px;
+    background-color: hsl(158, 69%, 16%);
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    border: 1px solid hsl(158, 69%, 16%);
+    border-radius: 10px;
+}
+
+@media (max-width:768px){
+    .prod-sec{
+        width: 100% !important;
+    }
+    .prod-img{
+        display: none;
+    }
+    .mob-img{
+        display: block;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+.product-body h2 {
+    font-size: 25px;
+    margin-top: 8px;
+}
+.product-body p {
+    margin-top: 10px;
+}
+.product-price {
+    margin-top: 0px;
+}
+.product-price strong {
+    font-size: 25px;
+}
+.cart-btn{
+    margin-top: 10px;
+}
+}
+
+@media (max-width:1200px){
+
+.product-body h2 {
+    font-size: 28px;
+    margin-top: 8px;
+}
+.product-body p {
+    margin-top: 10px;
+}
+.product-price {
+    margin-top: 0px;
+}
+.product-price strong {
+    font-size: 28px;
+}
+.cart-btn{
+    margin-top: 10px;
+}
+}
+
+@media (max-width:991px){
+    .prod-sec{
+        width: 90% !important;
+    }
+}
+
